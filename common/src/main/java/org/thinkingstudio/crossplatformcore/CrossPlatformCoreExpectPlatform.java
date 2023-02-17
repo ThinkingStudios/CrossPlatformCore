@@ -1,7 +1,7 @@
 package org.thinkingstudio.crossplatformcore;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
-import me.shedaniel.architectury.platform.Platform;
+import dev.architectury.platform.Platform;
 
 import java.nio.file.Path;
 
@@ -14,10 +14,9 @@ public class CrossPlatformCoreExpectPlatform {
      * <p>
      * Example:
      * Expect: org.thinkingstudio.crossplatformcore.CrossPlatformCoreExpectPlatform#getConfigDirectory()
-     * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#getConfigDirectory()
-     * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#getConfigDirectory()
+     * Actual Fabric: org.thinkingstudio.crossplatformcore.fabric.CrossPlatformCoreExpectPlatformImpl#getConfigDirectory()
+     * Actual Forge: org.thinkingstudio.crossplatformcore.forge.CrossPlatformCoreExpectPlatformImpl#getConfigDirectory()
      * <p>
-     * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */
     @ExpectPlatform
     public static Path getConfigDirectory() {
