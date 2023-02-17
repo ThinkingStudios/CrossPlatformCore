@@ -1,6 +1,6 @@
 package org.thinkingstudio.crossplatformcore.forge;
 
-import me.shedaniel.architectury.platform.forge.EventBuses;
+import dev.architectury.platform.forge.EventBuses;
 import org.thinkingstudio.crossplatformcore.CrossPlatformCore;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

@@ -1,7 +1,7 @@
 package org.thinkingstudio.crossplatformcore;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
-import me.shedaniel.architectury.platform.Platform;
+import dev.architectury.platform.Platform;
 
 import java.nio.file.Path;
 
