@@ -1,31 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "crossplatformcore",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "CrossPlatformCore",
+  "description": "A Cross ModLoader Lib",
   "authors": [
-    "Me!"
+    "TexTrue, TexTrueStudio"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/TexTrueStudio/CrossPlatformCore",
+    "sources": "https://github.com/TexTrueStudio/CrossPlatformCore",
+    "issues": "https://github.com/TexTrueStudio/CrossPlatformCore/issues"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "org.thinkingstudio.crossplatformcore.fabric.CrossPlatformCoreFabric"
     ]
   },
-  "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.16.5",
-    "architectury": ">=1.32.66"
+    "minecraft": ">=1.16.4",
+    "architectury": "1.x"
   }
 }

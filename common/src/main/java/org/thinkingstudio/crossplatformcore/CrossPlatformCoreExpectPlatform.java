@@ -1,11 +1,11 @@
-package net.examplemod;
+package org.thinkingstudio.crossplatformcore;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import me.shedaniel.architectury.platform.Platform;
 
 import java.nio.file.Path;
 
-public class ExampleExpectPlatform {
+public class CrossPlatformCoreExpectPlatform {
     /**
      * We can use {@link Platform#getConfigFolder()} but this is just an example of {@link ExpectPlatform}.
      * <p>
@@ -13,7 +13,7 @@ public class ExampleExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: net.examplemod.ExampleExpectPlatform#getConfigDirectory()
+     * Expect: org.thinkingstudio.crossplatformcore.CrossPlatformCoreExpectPlatform#getConfigDirectory()
      * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#getConfigDirectory()
      * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#getConfigDirectory()
      * <p>
@@ -21,6 +21,24 @@ public class ExampleExpectPlatform {
      */
     @ExpectPlatform
     public static Path getConfigDirectory() {
+        // Just throw an error, the content should get replaced at runtime.
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static Path getGameDirectory() {
+        // Just throw an error, the content should get replaced at runtime.
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static Path getModsDirectory() {
+        // Just throw an error, the content should get replaced at runtime.
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static boolean isModLoaded(String modid){
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }

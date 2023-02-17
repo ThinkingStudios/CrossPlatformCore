@@ -1,35 +1,36 @@
 modLoader = "javafml"
 loaderVersion = "[36,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/TexTrueStudio/CrossPlatformCore/issues"
+license = "MIT"
 
 [[mods]]
-modId = "examplemod"
+modId = "crossplatformcore"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "CrossPlatformCore"
+displayURL= "https://github.com/TexTrueStudio/CrossPlatformCore"
+authors = "TexTrue, TexTrueStudio"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A Cross ModLoader Lib
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.crossplatformcore]]
 modId = "forge"
 mandatory = true
 versionRange = "[36,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.crossplatformcore]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.5,)"
+versionRange = "[1.16.4,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.crossplatformcore]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.32.66,)"
+versionRange = "[1,)"
 ordering = "AFTER"
 side = "BOTH"
