@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[37,)"
+loaderVersion = "[38,40)"
 issueTrackerURL = "https://github.com/TexTrueStudio/CrossPlatformCore/issues"
 license = "MIT"
 
@@ -17,20 +17,20 @@ logoFile = "icon.png"
 [[dependencies.crossplatformcore]]
 modId = "forge"
 mandatory = true
-versionRange = "[37,)"
+versionRange = "[38,40)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.crossplatformcore]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.17,)"
+versionRange = "[1.18,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.crossplatformcore]]
 modId = "architectury"
 mandatory = true
-versionRange = "[2,)"
+versionRange = "[3,4)"
 ordering = "AFTER"
 side = "BOTH"
