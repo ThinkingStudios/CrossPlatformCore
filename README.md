@@ -4,7 +4,7 @@
 
 # CrossPlatformCore
 
-A simple multiplatform mod lib. Support Forge/Fabric/Quilt.
+A simple multi-platform mod lib. Support Forge/Fabric/Quilt.
 
 [ZH-CN](README-zh_cn.md) / EN-US
 
