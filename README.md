@@ -10,6 +10,10 @@ A multiplatform mod lib. Support Forge/Fabric/Quilt.
 
 </div>
 
+## HOW TO USE
+
+Please go to the [Wiki](https://github.com/TexTrueStudio/CrossPlatformCore/wiki) to see how to use the mod development.
+
 ## Features
 
 The following is a list of what has been implemented or will be implemented in this mod.
