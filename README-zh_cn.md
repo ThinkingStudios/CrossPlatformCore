@@ -4,7 +4,9 @@
 
 # CrossPlatformCore
 
-一个跨平台的模组代码库。 支持 Forge/Fabric/Quilt。
+一个跨平台的模组代码库。 
+
+支持 Forge/Fabric/Quilt。
 
 ZH-CN / [EN-US](README.md)
 
@@ -23,14 +25,24 @@ ZH-CN / [EN-US](README.md)
 
 
 
-|        功能        | 进度  |
+### Common:
+
+| 功能               | 进度  |
 |:----------------:|:---:|
-|    Game Path     |  ✔  |
-|   Config Path    |  ✔  |
-| Mods Folder Path |  ✔  |
-|    Mod Loaded    |  ✔  |
+| Game Path        | ✔   |
+| Config Path      | ✔   |
+| Mods Folder Path | ✔   |
+| Mod Loaded       | ✔   |
 |                  |     |
 |                  |     |
 |                  |     |
 |                  |     |
 |                  |     |
+
+### Forge Only:
+
+| 功能                           | 进度  |
+|:----------------------------:|:---:|
+| Fabric like `ModInitializer` |     |
+|                              |     |
+|                              |     |

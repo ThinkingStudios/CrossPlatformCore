@@ -4,7 +4,11 @@
 
 # CrossPlatformCore
 
-A multiplatform mod lib. Support Forge/Fabric/Quilt.
+A multi-modloader mod lib.
+
+
+
+ Support Forge/Fabric/Quilt.
 
 [ZH-CN](README-zh_cn.md) / EN-US
 
@@ -23,15 +27,24 @@ Quick legend:
 
 
 
-|     Features     | Progress |
-|:----------------:|:--------:|
-|    Game Path     |    ✔     |
-|   Config Path    |    ✔     |
-| Mods Folder Path |    ✔     |
-|    Mod Loaded    |    ✔     |
-|                  |          |
-|                  |          |
-|                  |          |
-|                  |          |
-|                  |          |
+### Common:
 
+| Features                      | Progress |
+|:-----------------------------:|:--------:|
+| Game Path                     | ✔        |
+| Config Path                   | ✔        |
+| Mods Folder Path              | ✔        |
+| Mod Loaded                    | ✔        |
+| Development Environment Check | ✔        |
+|                               |          |
+|                               |          |
+|                               |          |
+|                               |          |
+
+### Forge Only:
+
+| Features                     | Progress |
+|:----------------------------:|:--------:|
+| Fabric like `ModInitializer` | ✔        |
+|                              |          |
+|                              |          |

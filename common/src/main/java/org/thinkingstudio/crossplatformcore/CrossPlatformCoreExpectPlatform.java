@@ -6,25 +6,31 @@ import java.nio.file.Path;
 
 public class CrossPlatformCoreExpectPlatform {
     @ExpectPlatform
-    public static Path getConfigDirectory() {
+    public static Path getConfigDir() {
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }
 
     @ExpectPlatform
-    public static Path getGameDirectory() {
+    public static Path getGameDir() {
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }
 
     @ExpectPlatform
-    public static Path getModsDirectory() {
+    public static Path getModsDir() {
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }
 
     @ExpectPlatform
     public static boolean isModLoaded(String modid){
+        // Just throw an error, the content should get replaced at runtime.
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static boolean isDevEnvironment(){
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }
