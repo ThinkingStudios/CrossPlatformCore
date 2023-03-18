@@ -3,7 +3,7 @@
   "id": "crossplatformcore",
   "version": "${version}",
   "name": "CrossPlatformCore",
-  "description": "A Cross ModLoader Lib",
+  "description": "A simple multi-platform mod lib.",
   "authors": [
     "TexTrue, TexTrueStudio"
   ],
