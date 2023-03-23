@@ -1,28 +1,30 @@
 package org.thinkingstudio.crossplatformcore.loader;
 
 import org.thinkingstudio.crossplatformcore.CrossPlatformCoreExpectPlatform;
+import org.thinkingstudio.crossplatformcore.mods.CrossPlatformMods;
+import org.thinkingstudio.crossplatformcore.path.CrossPlatformPath;
 
 import java.nio.file.Path;
 
 public interface CrossPlatformLoader {
 
     static boolean isModLoaded(String id) {
-        return CrossPlatformCoreExpectPlatform.isModLoaded(id);
+        return CrossPlatformMods.isModLoaded(id);
     }
 
     static boolean isDevEnv() {
-        return CrossPlatformCoreExpectPlatform.isDevEnvironment();
+        return CrossPlatformMods.isDevEnvironment();
     }
 
     static Path getGameDir() {
-        return CrossPlatformCoreExpectPlatform.getGameDir();
+        return CrossPlatformPath.getGameDir();
     }
 
     static Path getConfigDir() {
-        return CrossPlatformCoreExpectPlatform.getConfigDir();
+        return CrossPlatformPath.getConfigDir();
     }
 
     static Path getModsDir(){
-        return CrossPlatformCoreExpectPlatform.getModsDir();
+        return CrossPlatformPath.getModsDir();
     }
 }
