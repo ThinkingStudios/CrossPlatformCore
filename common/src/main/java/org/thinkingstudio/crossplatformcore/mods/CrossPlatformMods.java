@@ -1,14 +1,14 @@
 package org.thinkingstudio.crossplatformcore.mods;
 
-import org.thinkingstudio.crossplatformcore.loader.CrossPlatformLoader;
+import org.thinkingstudio.crossplatformcore.CrossPlatformCoreExpectPlatform;
 
-//TODO: Deprecated in 1.0.2 or later
+//TODO: Deprecate in 1.0.2 or later
 public class CrossPlatformMods {
-    public static boolean isModLoaded(String modid) {
-        return CrossPlatformLoader.isModLoaded(modid);
+    public static boolean isModLoaded(String id) {
+        return CrossPlatformCoreExpectPlatform.isModLoaded(id);
     }
 
     public static boolean isDevEnvironment() {
-        return CrossPlatformLoader.isDevEnv();
+        return CrossPlatformCoreExpectPlatform.isDevEnvironment();
     }
 }

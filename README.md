@@ -6,9 +6,7 @@
 
 A multi-modloader mod lib.
 
-
-
- Support Forge/Fabric/Quilt.
+Support Forge/Fabric/Quilt.
 
 [ZH-CN](README-zh_cn.md) / EN-US
 
@@ -21,11 +19,12 @@ The following is a list of what has been implemented or will be implemented in t
 Quick legend:
 
 ✔ = Implemented
+
 ❌ = Not Implemented
+
 🙅 = No plans
+
 🚧 = Work In Progress
-
-
 
 ### Common:
 
