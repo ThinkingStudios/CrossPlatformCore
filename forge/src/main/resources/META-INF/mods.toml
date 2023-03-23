@@ -10,7 +10,7 @@ displayName = "CrossPlatformCore"
 displayURL= "https://github.com/TexTrueStudio/CrossPlatformCore"
 authors = "TexTrue, TexTrueStudio"
 description = '''
-A Cross ModLoader Lib
+A simple multi-platform mod lib.
 '''
 logoFile = "icon.png"
 

@@ -17,8 +17,8 @@ public class CrossPlatformCoreExpectPlatformImpl {
         return FabricLoader.getInstance().getGameDir().resolve("mods");
     }
 
-    public static boolean isModLoaded(String modid) {
-        return FabricLoader.getInstance().isModLoaded(modid);
+    public static boolean isModLoaded(String id) {
+        return FabricLoader.getInstance().isModLoaded(id);
     }
 
     public static boolean isDevEnvironment() {

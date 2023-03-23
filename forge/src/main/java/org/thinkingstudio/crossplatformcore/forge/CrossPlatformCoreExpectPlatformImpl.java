@@ -1,29 +1,27 @@
 package org.thinkingstudio.crossplatformcore.forge;
 
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.loading.FMLLoader;
-import net.minecraftforge.fml.loading.FMLPaths;
+import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
 public class CrossPlatformCoreExpectPlatformImpl {
     public static Path getConfigDir() {
-        return FMLPaths.CONFIGDIR.get();
+        return FabricLoader.getInstance().getConfigDir();
     }
 
     public static Path getGameDir() {
-        return FMLPaths.GAMEDIR.get();
+        return FabricLoader.getInstance().getGameDir();
     }
 
     public static Path getModsDir() {
-        return FMLPaths.MODSDIR.get();
+        return FabricLoader.getInstance().getGameDir().resolve("mods");
     }
 
-    public static boolean isModLoaded(String modid) {
-        return ModList.get().isLoaded(modid);
+    public static boolean isModLoaded(String id) {
+        return FabricLoader.getInstance().isModLoaded(id);
     }
 
     public static boolean isDevEnvironment() {
-        return !FMLLoader.isProduction();
+        return FabricLoader.getInstance().isDevelopmentEnvironment();
     }
 }

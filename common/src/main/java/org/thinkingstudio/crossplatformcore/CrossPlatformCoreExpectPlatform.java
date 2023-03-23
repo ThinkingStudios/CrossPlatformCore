@@ -24,7 +24,7 @@ public class CrossPlatformCoreExpectPlatform {
     }
 
     @ExpectPlatform
-    public static boolean isModLoaded(String modid){
+    public static boolean isModLoaded(String id){
         // Just throw an error, the content should get replaced at runtime.
         throw new AssertionError();
     }
