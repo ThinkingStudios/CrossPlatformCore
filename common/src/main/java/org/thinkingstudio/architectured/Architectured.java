@@ -1,11 +1,11 @@
-package org.thinkingstudio.crossplatformcore;
+package org.thinkingstudio.architectured;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CrossPlatformCore {
-    public static final String MOD_ID = "crossplatformcore";
-    public static final String MOD_NAME = "CrossPlatformCore";
+public class Architectured {
+    public static final String MOD_ID = "architectured";
+    public static final String MOD_NAME = "Architectured";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
     public static void init() {

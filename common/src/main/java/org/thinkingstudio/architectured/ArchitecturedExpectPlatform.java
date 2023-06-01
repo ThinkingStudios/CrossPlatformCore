@@ -1,10 +1,10 @@
-package org.thinkingstudio.crossplatformcore;
+package org.thinkingstudio.architectured;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
 import java.nio.file.Path;
 
-public class CrossPlatformCoreExpectPlatform {
+public class ArchitecturedExpectPlatform {
     @ExpectPlatform
     public static Path getConfigDir() {
         // Just throw an error, the content should get replaced at runtime.
